@@ -1,35 +1,35 @@
-## ¿Con qué IDE desarrollaste? 
+## Â¿Con quÃ© IDE desarrollaste? 
 
 El examen fue desarrollado con Netbeans.
 
-## ¿Por qué esa elección?
+## Â¿Por quÃ© esa elecciÃ³n?
 
-Porque  cuenta con asistentes para creación y configuración de frameworks, se conecta fácilmente a Github, es gratuito y es el IDE que uso habitualmente.
+Porque  cuenta con asistentes para creaciÃ³n y configuraciÃ³n de frameworks, se conecta fÃ¡cilmente a Github, es gratuito y es el IDE que uso habitualmente.
 
-## ¿Con qué lenguaje desarrollaste la programación? 
+## Â¿Con quÃ© lenguaje desarrollaste la programaciÃ³n? 
 
-Aunque no es tal cual un lenguaje de programación se usó HTML Y CSs con JS. 
+Aunque no es tal cual un lenguaje de programaciÃ³n se usÃ³ PHP Y CSS con JS. 
 
-## ¿Por qué esa elección?
+## Â¿Por quÃ© esa elecciÃ³n?
 
-Me pareció la manera más sencilla de llevar a cabo el proyecto de una manera rápida y más limpia, debido a que no se incluye una base de datos o algunos extras.
+Me pareciÃ³ la manera mÃ¡s sencilla de llevar a cabo el proyecto de una manera rÃ¡pida y mÃ¡s limpia, y asi poder conectar mejor las apis de terceros.
 
-## ¿Utilizaste algún framework? 
+## Â¿Utilizaste algÃºn framework? 
 
 Si Bootstrap.
 
-## ¿Por qué y para qué?
+## Â¿Por quÃ© y para quÃ©?
 
 Para simplificar y agilizar escribir las hojas de estilo.
 
-## ¿Utilizaste algún preprocesador?
+## Â¿Utilizaste algÃºn preprocesador?
 
 No.
 
-## Cómo funciona.
+## CÃ³mo funciona.
 
-Pantalla uno. Se utilizó js para que el video quedara al fondo total de la pantalla y css para que el boton de facebook, la funcionalidad de Inicio de Sesión de Facebook se realizó con la SDK para obtener los datos del usuario.
+Pantalla uno. Se utilizÃ³ js para que el video quedara al fondo total de la pantalla y css para que el boton de facebook, la funcionalidad de Inicio de SesiÃ³n de Facebook se realizÃ³ con la SDK para obtener los datos del usuario.
 
-Pantalla dos. Es el mismo HTML que la primera se llama a través de js la invoca después de iniciar sesion por Facebook, se realizó el maquetado con Bosstrap para la parte responsiva. Se utilizó una funcionalidad de FullPage,js para que los fondos quedarán centrados y responsivos y fuera un scroll animado que va llamando a los elementos según van apareciendo. El mail se envía a través de Maligun con la ayuda de Parse. El botón de compartir de Facebook fue tomado desde la api de facebook, el de twitter se escribió desde cero.
+Pantalla dos. Es el mismo HTML que la primera se llama a travÃ©s de js la invoca despuÃ©s de iniciar sesion por Facebook, se realizÃ³ el maquetado con Bosstrap para la parte responsiva. Se utilizÃ³ una funcionalidad de FullPage,js para que los fondos quedarÃ¡n centrados y responsivos y fuera un scroll animado que va llamando a los elementos segÃºn van apareciendo. El mail se envÃ­a a travÃ©s de Maligun. El botÃ³n de compartir de Facebook fue tomado desde la api de facebook, el de twitter se escribiÃ³ desde cero.
 
 
