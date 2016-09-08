@@ -1,0 +1,53 @@
+<?php
+require("inc/config.php");
+require("inc/functions.php");
+
+$TITLE = TITLE. ": ".SLOGAN;
+$DESCRIPTION = DESCRIPTION; 
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<?php include("inc.head.php"); ?>
+</head>
+<body>
+<div id="main">
+	<?php include("inc.header.php"); ?>
+	<div id="result">
+        <h2>Presentaci&oacute;n</h2>
+        <p><em>Sprytube</em>, es un script PHP que te permitir&aacute; tener tu propio sistema para buscar, reproducir y <strong>descargar</strong> videos de Youtube. Con una instalaci&oacute;n muy sencilla, te permite adaptar de forma sencilla el dise&ntilde;o de acuerdo a tus necesidades con absoluto control del HTML, CSS y scripts PHP. </p>
+        <p><img src="http://blog.unijimpe.net/wp-content/uploads/2008/09/sprytube20-home.gif" width="400" height="313" border="0" /></p>
+        <ul>
+          <li>Ahora mucho mas r&aacute;pido con nuevo API.</li>
+          <li>Funciona en cualquier dominio con PHP.</li>
+          <li>Multiples opciones de descarga dependiendo del video:<br />
+            - Low Quality &ndash; FLV<br />
+            - High Quality &ndash; FLV<br />
+            - Low Quality H.263 &ndash; 3GP<br />
+            - Low Quality MPEG-4 &ndash; 3GP<br />
+            - iPod Compatible, High Quality &ndash; MP4<br />
+            - High Definition, 720p &ndash; MP4<br />
+            - Low Definition, 360p &ndash; FLV<br />
+            - Standard Definition, 480p &ndash; FLV<br />
+            - High Quality MPEG-4 &ndash; 3GP<br />
+            - Full High Definition, 1080p &ndash; MP4<br />
+            - Low Quality Video, 360p - WebM <span class="new">(New)</span><br />
+            - Medium Quality Video, 480p - WebM <span class="new">(New)</span><br />
+            - High Quality Video, 720p - WebM <span class="new">(New)</span><br />
+          </li>
+        </ul>
+        <p><strong>Demo</strong></p>
+        <p>Para ver el sistema funcionando con todas su caracter&iacute;sticas puedes visitar:<br />
+          <a href="http://samples.unijimpe.net/sprytube-2.5/">http://samples.unijimpe.net/sprytube-2.5/</a>    </p>
+        </div>
+    <div id="alert">
+          <strong>Notas Importantes</strong><br />
+          - Las licencias son para un dominio, asegurate de tener un dominio para instalar el script.<br />
+          - Las clases principales estan protegidas, es necesario tener Zend Optimizer instalado en tu servidor.<br />
+          - Asegurate de cumplir con los requisitos antes de realizar el pago por que no hay devoluci&oacute;n de dinero.
+    </div>
+	<?php include("inc.footer.php"); ?>
+</div>
+<?php include("inc.foot.php"); ?>
+</body>
+</html>
